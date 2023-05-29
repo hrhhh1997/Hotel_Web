@@ -96,6 +96,34 @@ nav {
     line-height: 1.5rem;
 }
 
+.about-content-body-text p {
+    margin-bottom: 5%;
+}
+
+.about-content-body-text .text-section-btn:first-child {
+    background-color: #ec1c24;
+    border: 2px solid #ec1c24;
+    border-radius: 5px;
+    padding: 1% 2%;
+}
+
+.about-content-body-text .text-section-btn:first-child:hover {
+    color: #ec1c24;
+    background-color: #fefefe;
+}
+
+.about-content-body-text .text-section-btn:last-child {
+    border: 2px solid #ec1c24;
+    color: #ec1c24;
+    border-radius: 5px;
+    padding: 1% 2%;
+}
+
+.about-content-body-text .text-section-btn:last-child:hover {
+    background-color: #ec1c24;
+    color: #fefefe;
+}
+
 .about-content-body-image {
     flex: 1;
     display: flex;
