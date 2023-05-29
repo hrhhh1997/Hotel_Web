@@ -100,28 +100,20 @@ nav {
     margin-bottom: 5%;
 }
 
-.about-content-body-text .text-section-btn:first-child {
+.about-content-body-text .text-section-btn:first-child, .about-content-body-text .text-section-btn:last-child:hover {
     background-color: #ec1c24;
     border: 2px solid #ec1c24;
     border-radius: 5px;
     padding: 1% 2%;
-}
-
-.about-content-body-text .text-section-btn:first-child:hover {
-    color: #ec1c24;
-    background-color: #fefefe;
-}
-
-.about-content-body-text .text-section-btn:last-child {
-    border: 2px solid #ec1c24;
-    color: #ec1c24;
-    border-radius: 5px;
-    padding: 1% 2%;
-}
-
-.about-content-body-text .text-section-btn:last-child:hover {
-    background-color: #ec1c24;
     color: #fefefe;
+}
+
+.about-content-body-text .text-section-btn:last-child, .about-content-body-text .text-section-btn:first-child:hover {
+    border: 2px solid #ec1c24;
+    color: #ec1c24;
+    border-radius: 5px;
+    padding: 1% 2%;
+    background-color: #fefefe;
 }
 
 .about-content-body-image {
