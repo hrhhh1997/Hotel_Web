@@ -10,9 +10,15 @@ a {
     color: #fefefe;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     background-color: #fefefe;
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 nav {
@@ -136,6 +142,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     line-height: 1.5rem;
+    margin-top: auto;
 }
 
 footer > div:first-child {
