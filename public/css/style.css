@@ -12,6 +12,7 @@ a {
 
 body {
     background-color: #fefefe;
+    min-height: 100vh;
 }
 
 nav {
@@ -94,6 +95,7 @@ nav {
     font-size: clamp(6px, calc(4vw + 2px), 20px);
     text-align: justify;
     line-height: 1.5rem;
+    margin-bottom: 5%;
 }
 
 .about-content-body-text p {
@@ -127,11 +129,31 @@ nav {
     height: auto;
 }
 
+footer {
+    color: #fefefe;
+    background-color: #ec1c24;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5rem;
+}
+
+footer > div:first-child {
+    flex: 1;
+    min-width: 300px;
+}
+
+footer > div:last-child {
+    flex: 2;
+}
+
+footer i:not(:first-child) {
+    margin-left: 3%;
+}
 
 
 
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     nav {
         flex-direction: column;
         align-items: flex-start;
