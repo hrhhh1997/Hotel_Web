@@ -135,6 +135,39 @@ nav {
     height: auto;
 }
 
+.contact-content-body-main {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.contact-content-body-main > div {
+    flex: 1;
+}
+
+.message-div {
+    min-width: 150px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: calc(2vh + 2px);
+}
+
+.contact-form, address {
+    margin-top: 5%;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 2%;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 10rem;
+}
+
 footer {
     color: #fefefe;
     background-color: #ec1c24;
